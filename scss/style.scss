@@ -854,6 +854,15 @@
             transition: 0.2s;
           }
         }
+        .btn-tel {
+          display: none;
+        }
+
+        a.show-number-btn {
+          font-size: 18px;
+          font-weight: 600;
+          padding: 12px 32px;
+        }
       }
     }
   }

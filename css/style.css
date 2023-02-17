@@ -850,6 +850,14 @@
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
+.slider .slick-active .information-column .information-column--2 .btn-tel {
+  display: none;
+}
+.slider .slick-active .information-column .information-column--2 a.show-number-btn {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 32px;
+}
 
 .information-column__btn {
   text-align: center;
