@@ -9,7 +9,7 @@ $(document).ready(function () {
 
   let counter = 100 / sliderItem.length;
   picturesViewedFilled.style.width = `${counter}%`;
-  console.log(counter);
+
   // Вперёд
   $('.slick-next').on('click', function () {
     counter += 100 / sliderItem.length;
@@ -19,17 +19,14 @@ $(document).ready(function () {
     picturesViewedFilled.style.width = `${counter}%`;
   })
 
-  $('.slider').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
-    nextSlideNumber = nextSlide;
-    // console.log(nextSlideNumber);
-    $('.slick-prev ').on('click', function () {
-      console.log(11);
-    })
-  });
-
   // Назад
-  // $('.slick-prev ').on('click', function () {
-  //   let a = $(this).data("slick-index");
-  //   console.log(a);
-  // })
+  $('.slick-prev ').on('click', function () {
+    const slideNumber = $('.slider').slick('slickCurrentSlide');
+    if (slideNumber === sliderItem.length - 1) {
+      counter = 100;
+    } else {
+      counter -= 100 / sliderItem.length;
+    }
+    picturesViewedFilled.style.width = `${counter}%`;
+  })
 });
