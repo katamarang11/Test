@@ -805,7 +805,7 @@
   padding-bottom: 20px;
 }
 .slider .slick-active .information-column .information-column--2 .i-like-btn {
-  background-image: url(../img/heart.svg);
+  background-image: url(../img/heart.png);
   background-repeat: no-repeat;
   background-position: center;
   border: 1px solid #ffffff;
@@ -824,6 +824,10 @@
   border: 1px solid #dc1919;
   -webkit-transition: 0.1s;
   transition: 0.1s;
+}
+.slider .slick-active .information-column .information-column--2 .i-like-btn--active {
+  background-image: url(../img/heart-like.png);
+  border: 1px solid #dc1919;
 }
 .slider .slick-active .information-column .information-column--2 .show-number-btn {
   background: #dc1919;

@@ -16,10 +16,6 @@ dropBtnOpen2.addEventListener('click', function () {
   }
 });
 
-
-
-
-
 dropBtnOpen.addEventListener('click', function () {
   dropdownFormContent.classList.remove('dropdown-content__none');
 });
