@@ -25,7 +25,6 @@ dropBtnClose.addEventListener('click', function () {
 });
 
 dropBtnOpen3.addEventListener('click', function () {
-  console.log('ПРиветь')
   let a = amountRange.classList.contains('amount-range--none');
   if (a) {
     amountRange.classList.remove('amount-range--none');
@@ -34,5 +33,9 @@ dropBtnOpen3.addEventListener('click', function () {
   }
 });
 
-
+document.addEventListener('keydown', function () {
+  dropdownFormRoominess.classList.add('dropdown-content__none1');
+  amountRange.classList.add('amount-range--none');
+  dropdownFormContent.classList.add('dropdown-content__none');
+});
 

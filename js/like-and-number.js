@@ -1,5 +1,4 @@
 const iLikeBtn = document.querySelectorAll('.i-like-btn');
-console.log(iLikeBtn);
 
 for (let i = 0; i < iLikeBtn.length; i++) {
   iLikeBtn[i].addEventListener('click', function () {
