@@ -169,7 +169,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 10px 11px 10px 27px;
+  padding: 10px 10px 11px 27px;
   background-color: white;
   border-radius: 4px;
   margin-bottom: 42px;
@@ -183,12 +183,12 @@
   display: inline-block;
 }
 .main-form .dropdown-form .dropdown-form-content {
-  padding: 28px 11px 26px 27px;
+  padding: 27px 11px 26px 27px;
   display: block;
   position: absolute;
   background-color: white;
   left: -27px;
-  bottom: -487px;
+  bottom: -488px;
   min-width: 260px;
   height: 532px;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -221,7 +221,7 @@
   background-color: #dedede;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
-  left: 197px;
+  left: 198px;
 }
 .main-form .dropdown-form .drop-btn-close {
   display: -webkit-box;
@@ -254,7 +254,7 @@
 }
 .main-form .main-form-btn:active {
   background-color: #dc1919;
-  color: #ffffff;
+  color: #dc1919;
   border: 1px solid #dc1919;
 }
 .main-form .radio-btn-group {
@@ -406,7 +406,8 @@
   background-color: #dedede;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
-  left: 121px;
+  left: 123px;
+  top: 8px;
 }
 .main-form .dropdown-roominess .dropdown-form-roominess {
   padding: 44px 11px 26px 27px;
@@ -532,8 +533,8 @@
   background-color: #dedede;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
-  left: 246px;
-  top: 16px;
+  left: 248px;
+  top: 8px;
 }
 .main-form .number-binding {
   position: relative;
