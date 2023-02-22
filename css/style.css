@@ -116,7 +116,7 @@
   color: #171717;
 }
 .header-nav .header-contacts {
-  padding: 8px 19px 15px;
+  padding: 15px 20px 15px;
   border: 1px solid #dc1919;
   border-radius: 4px;
   color: #dc1919;
@@ -236,11 +236,26 @@
   margin-bottom: 30px;
 }
 .main-form .main-form-btn {
-  padding: 18px 45px 18px;
+  padding: 16px 45px 16px;
   color: white;
   background-color: #dc1919;
   border-radius: 4px;
   font-weight: 600;
+  border: 1px solid #dc1919;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.main-form .main-form-btn:hover {
+  background-color: white;
+  color: #dc1919;
+  border: 1px solid #dc1919;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.main-form .main-form-btn:active {
+  background-color: #dc1919;
+  color: #ffffff;
+  border: 1px solid #dc1919;
 }
 .main-form .radio-btn-group {
   display: -webkit-box;
