@@ -216,7 +216,7 @@
 .main-form .dropdown-form .drop-btn-open::after {
   content: "";
   position: absolute;
-  width: 73px;
+  width: 71px;
   height: 1px;
   background-color: #dedede;
   -webkit-transform: rotate(90deg);
@@ -401,7 +401,7 @@
 .main-form .dropdown-roominess .drop-btn-open__2::after {
   content: "";
   position: absolute;
-  width: 73px;
+  width: 71px;
   height: 1px;
   background-color: #dedede;
   -webkit-transform: rotate(90deg);
@@ -527,13 +527,13 @@
 .main-form .drop-btn-open__3::after {
   content: "";
   position: absolute;
-  width: 73px;
+  width: 71px;
   height: 1px;
   background-color: #dedede;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
-  left: 248px;
-  top: 8px;
+  left: 246px;
+  top: 16px;
 }
 .main-form .number-binding {
   position: relative;
