@@ -825,7 +825,7 @@
         padding-bottom: 20px;
 
         .i-like-btn {
-          background-image: url(../img/heart.png);
+          background-image: url(../img/heart.svg);
           background-repeat: no-repeat;
           background-position: center;
           border: 1px solid #ffffff;
@@ -846,7 +846,7 @@
         }
 
         .i-like-btn--active {
-          background-image: url(../img/heart-like.png);
+          background-image: url(../img/heart-like.svg);
           border: 1px solid #dc1919;
         }
 
