@@ -33,9 +33,11 @@ dropBtnOpen3.addEventListener('click', function () {
   }
 });
 
-document.addEventListener('keydown', function () {
-  dropdownFormRoominess.classList.add('dropdown-content__none1');
-  amountRange.classList.add('amount-range--none');
-  dropdownFormContent.classList.add('dropdown-content__none');
+document.addEventListener('keydown', function (e) {
+  if (e.keyCode == 27) {
+    dropdownFormRoominess.classList.add('dropdown-content__none1');
+    amountRange.classList.add('amount-range--none');
+    dropdownFormContent.classList.add('dropdown-content__none');
+  }
 });
 
