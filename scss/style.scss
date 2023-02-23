@@ -165,10 +165,10 @@
 .main-form {
   display: flex;
   align-items: center;
-  padding: 10px 10px 11px 27px;
+  // padding: 10px 10px 11px 27px;
   background-color: white;
   border-radius: 4px;
-  margin-bottom: 42px;
+  // margin-bottom: 42px;
 
   .dropdown-form {
     position: relative;
@@ -179,9 +179,9 @@
       display: block;
       position: absolute;
       background-color: white;
-      left: -27px;
-      bottom: -488px;
-      min-width: 260px;
+      left: 0;
+      bottom: -461px;
+      min-width: 265px;
       height: 532px;
       box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
       z-index: 1;
@@ -195,21 +195,13 @@
     }
 
     .drop-btn-open {
-      margin-right: 55px;
+      // margin-right: 55px;
       display: flex;
       align-items: center;
       column-gap: 38px;
-      position: relative;
+      border-right: 1px solid #dedede;
 
-      &::after {
-        content: "";
-        position: absolute;
-        width: 71px;
-        height: 1px;
-        background-color: #dedede;
-        transform: rotate(90deg);
-        left: 198px;
-      }
+      padding: 27px;
     }
 
     .drop-btn-close {
@@ -393,22 +385,13 @@
 
     .drop-btn-open__2 {
       color: #808080;
-      margin-right: 74px;
-      position: relative;
+      // margin-right: 74px;
       display: flex;
       align-items: center;
       column-gap: 20px;
 
-      &::after {
-        content: "";
-        position: absolute;
-        width: 71px;
-        height: 1px;
-        background-color: #dedede;
-        transform: rotate(90deg);
-        left: 123px;
-        top: 8px;
-      }
+      padding: 27px;
+      border-right: 1px solid #dedede;
     }
 
     .dropdown-form-roominess {
@@ -416,8 +399,8 @@
       display: block;
       position: absolute;
       background-color: white;
-      right: -111px;
-      top: 28px;
+      left: -1px;
+      top: 71px;
       min-width: 304px;
       height: 200px;
       box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -531,19 +514,12 @@
   //=========================================
 
   .drop-btn-open__3 {
-    margin-right: 227px;
-    position: relative;
+    padding-top: 27px;
+    padding-right: 200px;
+    padding-bottom: 27px;
+    padding-left: 27px;
 
-    &::after {
-      content: "";
-      position: absolute;
-      width: 71px;
-      height: 1px;
-      background-color: #dedede;
-      transform: rotate(90deg);
-      left: 248px;
-      top: 8px;
-    }
+    border-right: 1px solid #dedede;
   }
 
   .number-binding {
@@ -556,9 +532,9 @@
       row-gap: 20px;
       position: absolute;
       background-color: white;
-      right: 26px;
-      top: 28px;
-      min-width: 318px;
+      left: -1px;
+      top: 71px;
+      min-width: 311px;
       height: 200px;
       box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
       z-index: 1;
@@ -602,6 +578,8 @@
 
   .text-input-form {
     width: 310px;
+    padding-left: 28px;
+    margin-right: 36px;
   }
 
   // Потом вернусь сюда
