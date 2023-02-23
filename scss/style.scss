@@ -641,6 +641,8 @@
     padding-left: 32px;
     transition: 1s;
 
+    overflow: hidden;
+
     &:hover {
       transition: 1s;
       transform: scale(1.5);

@@ -625,6 +625,7 @@
   padding-left: 32px;
   -webkit-transition: 1s;
   transition: 1s;
+  overflow: hidden;
 }
 .service-selection .service-horizontally:hover {
   -webkit-transition: 1s;
